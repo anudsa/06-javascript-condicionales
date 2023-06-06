@@ -146,3 +146,115 @@ const checarDia = (diaDeSemana) =>{
     }   
 }
 console.log(checarDia("Sábado"));
+// SWITCH
+// *Determinar qué día de la semana corresponde al número, según la siguiente tabla:
+//     - 1 = Lunes
+//     - 2 = Martes
+//     - 3 = Miércoles
+//     - 4 = Jueves
+//     - 5 = Viernes
+//     - 6 = Sábado
+//     - 7 = Domingo
+
+let diaSemana = 7;
+
+switch(diaSemana){
+    case 1:
+        console.log("lunes");
+        break;
+    case 2:
+        console.log("martes");
+        break;
+    case 3:
+        console.log("miercoles");
+        break;
+    case 4:
+        console.log("jueves");
+        break;
+    case 5:
+        console.log("viernes");
+        break;
+    case 6:
+        console.log("sabado");
+        break;
+    case 7:
+        console.log("domingo");
+        break;
+    default:
+        console.log("error");
+        break;
+    
+}
+// Programa que muestre el precio del kg de naranja, manzana, mandarinas, plátanos, mangos.
+let fruta = "MAndarinas";
+
+switch(fruta.toLowerCase()){
+    case "naranjas":
+        console.log("las naranjas cuestan $30 el kg");
+        break;
+    case "manzanas":
+        console.log("las naranjas cuestan $60 el kg"); 
+        break;
+    case "mandarinas":
+        console.log("las Mandarinas cuestan $12.5 el kg");
+        break;
+    case "platano":
+        console.log("las naranjas cuestan $20 el kg");
+        break;
+    case "mangos":
+        console.log("las naranjas cuestan $66 el kg");
+        break;
+    default:
+        console.log("No tenemos esa fruta");
+    break;
+}
+//Crear un programa con switch para evaluación de alumnos (las calificaciones aprobatorias van de 5.5 a 10 y deben redondearse al número superior inmediato).
+
+let calificación = 5.5;
+
+switch (Math.round(calificación)){
+
+    case 1:
+    console.log("reprobado 1");
+    break;
+
+    case 2:
+    console.log("reprobado 2");
+    break;
+
+    case 3:
+    console.log("reprobado 3");
+    break;
+
+    case 4:
+    console.log("reprobado 4");
+    break;
+
+    case 5:
+    console.log("reprobado 5");
+    break;
+
+    case 6:
+    console.log("aprobado 6");
+    break;
+
+    case 7:
+    console.log("aprobado 7");
+    break;
+
+    case 8:
+    console.log("aprobado 8");
+    break;
+
+    case 9:
+    console.log("aprobado 9");
+    break;
+
+    case 10:
+    console.log("aprobado 10");
+    break;
+
+    default:
+    console.log("Número inválido");
+    break;
+}
