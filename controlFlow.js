@@ -258,3 +258,4 @@ switch (Math.round(calificación)){
     console.log("Número inválido");
     break;
 }
+
